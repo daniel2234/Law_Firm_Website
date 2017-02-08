@@ -3,21 +3,20 @@
     height: 100%;
     margin: 0px;
   }
+
   p {
     height: 100%;
     margin: 0px;
-    color: white;
     margin: 0px auto;
   }
 
   header{
-    margin-top: 20px;
-    width: 20%;
-    float: right; 
-    background:black; 
+    width:20%; 
     height:60px; 
     line-height:60px;
+    float: right;
   }
+
   h1 {
     font-style: Helvetica;
     color: white;
@@ -33,7 +32,7 @@
   }
 
   footer {
-    padding: 100px;
+    height: 20%;
   }
 
   #footer-img-wrapper{
@@ -43,57 +42,9 @@
     padding-right: 20px;
   }
 
-  .styled_form{
-    padding: 25px;
-    border:2px solid #999999;
-    background: #ececec;
-  }
-
-  .styled_form input[type="text"]{
-    width: 20%;
-    height: 40px;
-    padding: 5px 8px;
-    font:normal 14px Helvetica, Arial, sans-serif;
-    border:1px solid #0066cc;
-    border-radius: 4px;
-    box-sizing: border-box;
-  }
-
-  .styled_form input[type="tel"]{
-    width: 20%;
-    height: 40px;
-    padding: 5px 8px;
-    font:normal 14px Helvetica, Arial, sans-serif;
-    border:1px solid #0066cc;
-    border-radius: 4px;
-    box-sizing: border-box;
-  }
-
-  .styled_form input[type="email"]{
-    width: 20%;
-    height: 40px;
-    padding: 5px 8px;
-    font:normal 14px Helvetica, Arial, sans-serif;
-    border:1px solid #0066cc;
-    border-radius: 4px;
-    box-sizing: border-box;
-  }
-  .styled_form.horizontal label {
-    display: inline-block;
-    padding: 0 20px 0 0;
-    vertical-align: middle;
-  }
-
-  .styled_form.horizontal input[type="text"] {
-    display: inline-block;
-    width: 20%;
-    margin-bottom: 0;
-    vertical-align: middle;
-  }
-
   .parallax_section_one {
     background-image: url('award_section.jpg');
-    height: 70%; 
+    height: 50%; 
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -110,7 +61,7 @@
 
   .parallax_section_three {
     background-image: url('section_three_photo.jpg');
-    height: 70%; 
+    height: 50%; 
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -118,22 +69,33 @@
   }
 
   #logo_image {
-    width: 250px;
-    height: 250px;
+    max-width: 250px;
     margin-left: 20px;
     margin-top: 20px;
+    width: 25%;
   }
 
   #legalconsultation {
-    height:500px;
+    height: 50%;
     background-color:#990000;
     font-size:20px
   }
 
+  #aboutthefirm {
+    height: 50%;
+    background-color:#990000;
+    font-size:20px
+  }
+
+  #aboutus{
+    width: 100%;
+    text-align: center;
+    padding-top: 5%;
+  }
   .headerone {
     color: white;
     margin-top: 0px;
-    padding-top: 50px;
+    padding-top: 20px;
     padding-bottom: 50px;
   }
  
@@ -145,87 +107,153 @@
   }
 
   #wrapper {
-    width: 800px;
+    width: 100%;
     height: 50px;
     margin: 0px auto;
     text-align: center;
   }
   
   #awardwrapper {
-    width: 800px;
-    height: 50px;
+    width: 100%;
+    height: 10%;
     margin: 0px auto;
+    color: white;
   }
 
   #awardlist {
-    height:600px;
+    height:80%;
     background-color:#990000;
     font-size:20px
-  }
-
-  #aboutus{
-    width: 800px;
-    text-align: center;
-    padding-top: 100px;
-    margin: 0px auto;
   }
 
   #contactus{
-    height:800px;
+    height:100%;
     background-color:#990000;
     font-size:20px
   }
 
-  #address {
+  .contact-attribute {
+    color: white;
+    width: 200px;
+    height: 30%;
+    margin-top: 50px;
+    margin-left: 100px;
+    float: left;
+    text-align: center;
+  }
+
+  #map {
     background-color: white;
-    width: 300px;
-    height: 300px;
+    width: 30%;
+    height: 50%;
     margin-top: 50px;
     margin-left: 100px;
     outline: 1px solid;
     float: left;
   }
 
-  #map{
-    float: right;
-    margin-top: 100px;
-    margin-right: 100px;
-    width: 300px;
-    height: 500px;
+  #contactform {
     background-color: white;
+    width: 50%;
+    height: 50%;
+    margin-top: 50px;
+    margin-left: 100px;
+    outline: 1px solid;
+    float: left;
   }
 
-  #subscribe {
-    background-color: white;
-    width: 300px;
-    height: 300px;
+  .hamburger{
+    background:none;
+    position:absolute;
+    top:0;
+    right:0;
+    line-height:45px;
+    padding:5px 15px 0px 15px;
+    color:#fff;
+    border:0;
+    font-size:1.4em;
+    font-weight:bold;
+    cursor:pointer;
+    outline:none;
+    z-index:10000000000000;
+  }
+  .cross{
+    background:none;
+    position:absolute;
+    top:0px;
+    right:0;
+    padding:13px 15px 0px 15px;
+    color:#fff;
+    border:0;
+    font-size:3em;
+    line-height:65px;
+    font-weight:bold;
+    cursor:pointer;
+    outline:none;
+    z-index:10000000000000;
   }
 
+  .menu{z-index:1000000; font-weight:bold; font-size:0.8em; width:100%; background:#131313;  position:absolute; text-align:center;}
+  .menu ul {margin: 0; padding: 0; list-style-type: none; list-style-image: none;}
+  .menu li {display: block;   padding:15px 0 15px 0; border-bottom:#1d1f20 1px solid;}
+  .menu li:hover{display: block;    background:#181818; padding:15px 0 15px 0; border-bottom:#1d1f20 1px solid;}
+  .menu ul li a { text-decoration:none;  margin: 0px; color:#fff;}
+  .menu ul li a:hover {  color: #fff; text-decoration:none;}
+  .menu a{text-decoration:none; color:white;}
+  .menu a:hover{text-decoration:none; color:white;}
 </style>
 
 
 <!DOCTYPE html>
 <html>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <head>
-    <title>Saron And Associates PC</title>
+    <title>SARON &amp; ASSOCIATES PC</title>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $( ".cross" ).hide();
+            $( ".menu" ).hide();
+            $( ".hamburger" ).click(function() {
+            $( ".menu" ).slideToggle( "slow", function() {
+            $( ".hamburger" ).hide();
+            $( ".cross" ).show();});
+          });
+
+            $( ".cross" ).click(function() {
+            $( ".menu" ).slideToggle( "slow", function() {
+            $( ".cross" ).hide();
+            $( ".hamburger" ).show();
+          });
+          });
+        });
+
+      </script>
   </head>
   <body>
+    <header>
+        <button class="hamburger">&#9776;</button>
+        <button class="cross">&#735;</button>
+    </header>
+    <div class="menu">
+      <ul>
+        <a href="#legalconsultation"><li>LEGAL CONSULTATION</li></a>
+        <a href="#awardlist"><li>AWARDS AND ACCOLADES</li></a>
+        <a href="#aboutthefirm"><li>ABOUT US</li></a>
+        <a href="#aboutus"><li>CONTACT US</li></a>
+        <a href="#map"><li>FIND US</li></a>
+      </ul>
+      </div>
     <div class="parallax_section_two">
-      <header>
-        Hamburger Menu goes here.
-      </header>
         <img id= "logo_image" src="logo.png">
-          <h1>Saron And Associates PC</h1>
+          <h1>SARON &amp; ASSOCIATES PC</h1>
             <h4>1730 Weston Road, Weston And Lawrence</h4>
             <h4>Call: +1-416-887-LAW1(5291), Consultations</h4>
     </div>
     <div id="legalconsultation">
       <h1 class="headerone">Legal Consultation</h1>
         <div id="wrapper">
-          <p>Have a legal problem on your hands? Information is power. Schedule a legal consultation to obtain sound counsel (‘advice’) on your best options.</p>
-          <p>(The Firm does NOT offer free legal consultations unless you were a) wrongfully fired from your job where you worked for at least 5 years or b) you were in a serious car accident.</p>
-          <p>Pleased to provide representation before the Courts and Tribunals in both official languages (French and English).</p>
-          <p>Additional Languages spoken: <em>Spanish, German, Tigrinia, American Sign Language (ASL)</em></p>
+          <p>Have a legal problem on your hands? Information is power. Schedule a legal consultation to obtain sound counsel (‘advice’) on your best options.<br>(The Firm does NOT offer free legal consultations unless you were </br>a) wrongfully fired from your job where you worked for at least 5 years or b) you were in a serious car accident.</br>Pleased to provide representation before the Courts and Tribunals in both official languages (French and English).<br>Additional Languages spoken: <em>Spanish, German, Tigrinia, American Sign Language (ASL)</em></br></p>
         </div>
     </div>
     <div class="parallax_section_one">
@@ -253,7 +281,7 @@
     <div class="parallax_section_three">
       <h1 class="headerone">About Us</h1>
     </div>
-    <div id="legalconsultation">
+    <div id="aboutthefirm">
       <div id="aboutus">
         <p>Ours is a thriving boutique litigation firm headquartered in the heart of Weston Mount-Dennis. Well-known for running high-profile cases, we represent Plaintiffs and Defendants from all walks of life. Our two-pronged specialties lies in the domains of insurance litigation and human rights law. We are well-regarded within the insurance industry for representing children and families in the aftermath of car accidents resulting in fatality or serious medical injuries. We aggressively pursue litigation against insurance companies to ensure our clients get access to the legal system to obtain the medical care and compensation they deserve. We regularly accept cases with a strong social justice component to them and consistently obtain wins on behalf of our plaintiffs. Our knowledge is frequently called upon by industry stakeholders and the media alike including the Toronto Star, CBC, CTV, City News, Globe and Mail, National Post, Toronto Sun and a wide cross-section of community-run publications. We regularly give back to the community through pro bono work and donations to charitable causes.</p>
       </div>
@@ -262,46 +290,36 @@
       <h1 class="headerone">Contact Us</h1>
     </div>
     <div id="contactus">
-      <div id="address">
-        <h3>Address</h3>
+      <div class = "contact-attribute">
+        <h3>ADDRESS</h3>
+        <p style="color: gray;">1730 Weston Road Suite 101 Toronto, Ontario M9N 1V6 <br>Canada</br></p>
       </div>
-      <div id="address">
-        <h3>Hours</h3>
+      <div class = "contact-attribute">
+        <h3>FAX NUMBER</h3>
+        <p style="color: gray;">+1-807-270-0002</p>
       </div>
-
-      <div id="map">
-        <h3>Map</h3>
+      <div class = "contact-attribute">
+        <h3>PHONE NUMBER</h3>
+        <p style="color: gray;">+1-416-887-LAW1(5291)</p>
       </div>
-
-      <div id="address">
-        <h3>Phone Number</h3>
+      <div class = "contact-attribute">
+        <h3>EMAIL US</h3>
+        <p style="color: gray;">saron@saronpc.com</p>
+      </div> 
+      <div id = "map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2884.6111674333974!2d-79.51286608450076!3d43.69784647911985!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b3128b8dc97e3%3A0xf7139c528c497cc9!2s1730+Weston+Rd+%23101%2C+York%2C+ON+M9N+1V6!5e0!3m2!1sen!2sca!4v1486497795364" width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe>
       </div>
-
-      <div id="address">
-        <h3>Email Us</h3>
+      <div id="contactform">
+        <div class="styled_form">
+          
+        </div>
       </div>
     </div>
-
-    <!-- Style form -->
-    <div class="styled_form horizontal">
-      <h1 style="color: black;">Contact Us</h1>
-
-      <label for="name">Name</label>
-      <input type="text" id="first_name" />
-      <label for="phone">Phone Number</label>
-      <input type="tel" name="phone" id="phone" placeholder="(212) 555-1212"/>
-      <label for="email">Email</label>
-      <input type="email" name="email" id="email" autocomplete = "off" autocorrect="off" autocapitalize="none" novalidate />
-      <input type="submit" name="Sign Up">
-    </div>
-
   </body>
   <footer>
-        <h3 style="text-align: center;">www.saronpc.com</h3>
+     <h3 style="text-align: center;">www.saronpc.com</h3>
         <div id = "footer-img-wrapper">
-          <img src="icon_twitter.png">
-          <img src="icon_facebook.png">
-          <img src="icon_twitter.png">
+          <a href="mailto:saron@saronpc.com" target="blank""></a><img src="icon_email.png">
         </div>
   </footer>
 </html>
